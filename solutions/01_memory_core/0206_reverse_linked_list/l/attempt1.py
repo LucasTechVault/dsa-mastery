@@ -7,3 +7,7 @@ def reverseLinkedList(head: Optional[ListNode]) -> Optional[ListNode]:
         prev = cur
     
     return prev
+
+    """_summary_
+    * Key idea is to know while condition & what to return.
+    """
