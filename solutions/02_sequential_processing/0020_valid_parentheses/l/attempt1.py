@@ -25,5 +25,3 @@ def validParenthesis(s: str) -> bool:
     # 3. All checks pass, check if residual in stack
     # cannot simply return True. Stack may have residual due to duplicates open braces (extra ammunition)
     return len(stack) == 0
-
-    
